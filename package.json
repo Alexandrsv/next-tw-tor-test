@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "glitch-text": "^1.6.1",
     "next": "12.2.4",
     "prettier": "^2.7.1",
     "react": "18.2.0",

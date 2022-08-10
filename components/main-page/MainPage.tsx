@@ -1,5 +1,5 @@
 import React from "react";
-import Circles from "./Circles";
+import CirclesBG from "./CirclesBG";
 
 const MainPage = () => {
   return (
@@ -20,9 +20,7 @@ const MainPage = () => {
           }
         >
           <div
-            className={
-              "grid self-end ml-12 border border-red-600 p-2 bg-gradient-to-r from-transparent to-black"
-            }
+            className={"grid self-end ml-12 border border-red-600 p-2 bg-black"}
           >
             Эй, приятель! Хочешь поговорить о утках?
           </div>{" "}
@@ -33,13 +31,21 @@ const MainPage = () => {
             "self-end font-bold text-red-600 leading-[1.3rem] list-decimal ml-7"
           }
         >
-          <li>Поговорить о утках</li>
-          <li>Лежать спокойно</li>
-          <li>Позвать на помощь</li>
-          <li>Ударить по стене</li>
+          <li className={"cursor-pointer hover:text-red-400"}>
+            Поговорить о утках
+          </li>
+          <li className={"cursor-pointer hover:text-red-400"}>
+            Лежать спокойно
+          </li>
+          <li className={"cursor-pointer hover:text-red-400"}>
+            Позвать на помощь
+          </li>
+          <li className={"cursor-pointer hover:text-red-400"}>
+            Ударить по стене
+          </li>
         </ol>
       </div>
-      <Circles />
+      <CirclesBG />
       {/*<div*/}
       {/*  className={`bg-red-400 border border-blue-700 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-5 h-5 z-10`}*/}
       {/*/>*/}

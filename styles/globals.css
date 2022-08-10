@@ -4,7 +4,9 @@
 
 @layer base {
 	.duck-bg {
-		background: repeating-linear-gradient(to top, transparent 16px, black 19px, rgb(100,1,1) 20px), center  45%/ 65% no-repeat url('https://icons-for-free.com/iconfiles/png/512/duckduckgo+engine+internet+optimization+search+web+icon-1320192725018157061.png'), black
+		background: center  45%/ 65% no-repeat url('https://icons-for-free.com/iconfiles/png/512/duckduckgo+engine+internet+optimization+search+web+icon-1320192725018157061.png'),
+		repeating-linear-gradient(to top, transparent 23px, transparent 22px, black 26px, rgb(100,1,1) 27px),
+		black
 	}
 
 
